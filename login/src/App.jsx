@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="*" element={<Login />}></Route>
-          <Route path="/main" element={<Home />}></Route>
+          <Route path="/react/main" element={<Home />}></Route>
         </Routes>
       </BrowserRouter>
     </>
